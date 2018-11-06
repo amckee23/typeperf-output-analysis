@@ -1,4 +1,4 @@
-# My new project
+# Typeperf Output analysis
 
 ## Introduction
 
@@ -6,7 +6,8 @@
 
 > The issue with this data is... well its quite hard to understand in Excel and we didnt have any fancy tools at hand to crunch through it so enter this project
 
-> This code iterates through each dataset which has been output by typeperf and generates a graph to allow for a quick overview of what the metrics are showing.
+> This code iterates through each dataset which has been output by typeperf and generates a graph to allow for a quick overview of what the metrics are showing.  
+> It is likely you will have some form of server monitoring already in place to do this, if so this project is not for you!
 
 ## Code Samples
 
@@ -26,3 +27,10 @@
 > java -jar build/libs/typeperf-analysis-service-0.0.1-SNAPSHOT.jar --sourceFile=./example-input-data/one-chart-example.csv
 
 
+## Future Features
+
+> In no real order
+- Addition of date / time filters to allow graphs to 'zoom in'
+- Externalisation of graph styles
+- Ability to change graph sizes
+- Additional project to also kick off the typeperf command and analyse disk performance metrics
