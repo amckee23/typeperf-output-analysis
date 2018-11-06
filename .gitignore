@@ -25,6 +25,5 @@
 /nbdist/
 /.nb-gradle/
 
-/images/
 
 .DS_Store
