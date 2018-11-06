@@ -2,8 +2,7 @@ package uk.co.amckee.windows.typeperf.analysis.typeperfanalysisservice.service;
 
 import uk.co.amckee.windows.typeperf.analysis.typeperfanalysisservice.model.GraphData;
 
-public interface CSVLoaderService {
+public interface ChartRenderService {
 
-    GraphData readDataFromCSV(final String csvFileLocation);
-
+    void drawCharts(final GraphData graphData);
 }

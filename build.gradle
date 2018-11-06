@@ -27,4 +27,5 @@ repositories {
 dependencies {
 	implementation('org.springframework.boot:spring-boot-starter')
 	implementation('com.opencsv:opencsv:4.1')
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
